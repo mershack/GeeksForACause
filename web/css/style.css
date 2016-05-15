@@ -8,6 +8,8 @@ body{
 	margin:0;
 	padding:0;
 	font-family: 'OpenSans-Regular';
+	background: #737373;
+	font-weight: bold;
  }
 body a{
 	transition:0.5s all;
@@ -17,7 +19,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
+	margin:0;
 }
 h1.b1,h2.b2,h3.b3 {
   margin-bottom:25px;
@@ -28,7 +30,7 @@ h1.b1,h2.b2,h3.b3 {
 }
 .breadcrumb{
 	margin:1em 0;
-}		
+}
 p{
 	margin:0;
 }
@@ -73,9 +75,9 @@ padding:0;
 	width:50%;
 }
 .logo a h1{
-	color:#FF008C;
+	color:#33cc33;
 	 font-family: 'Dosis-Bold';
-font-size:3em;	
+font-size:3em;
 	display:inline-block;
 	text-decoration:none;
 }
@@ -112,7 +114,7 @@ font-size:3em;
 	color:#fff;
 }
 .call p{
-	color:#FF008C;
+	color:#33cc33;
 	font-size:0.9em;
 	font-family: 'OpenSans-Light';
 }
@@ -216,7 +218,7 @@ font-size:3em;
 	text-decoration:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	color:#FF008C;
+	color:#33cc33;
 }
 span.menu{
 	display: none;
@@ -314,7 +316,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-align:center;
 }
 .welcome-top h3,.mission h3{
-    color: #FF008C;
+    color: #33cc33;
     font-size: 2.5em;
     margin: 0;
     font-family: 'Dosis-Regular';
@@ -412,7 +414,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .chrty p {
     font-size: 1em;
     line-height: 1.8em;
-    color: #999;
+    color: #fff;
 }
 /*--mission--*/
 .mission{
@@ -427,7 +429,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     text-decoration: none;
 }
 .blog1 p{
-	color:#999;
+	color:#fff;
 	font-size:1em;
 	line-height:1.8em;
 }
@@ -437,7 +439,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .mission-sec{
 	margin-top:3em;
 }
-.join {   
+.join {
     padding: 2.5em 0;
     background: #333;
     text-align: center;
@@ -480,7 +482,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-left:0;
 }
 .bottom-left-grid h3,.bottom-right-grid h3{
-	color: #FF008C;
+	color: #33cc33;
     font-size: 2.3em;
     font-family: 'Dosis-Regular';
 }
@@ -504,7 +506,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	display:block;
 	margin-top:1em;
 	text-decoration:none;
-	color: #FF008C;
+	color: #33cc33;
 }
 .project a:hover{
 	color:#333;
@@ -513,7 +515,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin-top:2em;
 }
 .links h3{
-	color: #FF008C;
+	color: #33cc33;
     font-size: 2.3em;
     font-family: 'Dosis-Regular';
 }
@@ -547,7 +549,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-bottom:15px;
 }
 .links ul li a:hover{
-	color: #FF008C;
+	color: #33cc33;
 }
 .event-pic-info h4 a{
     color: #333;
@@ -556,7 +558,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     text-decoration: none;
 }
 .event-pic-info h4 a:hover,.blog1 h4 a:hover{
-	color: #FF008C;
+	color: #33cc33;
 }
 
 .event-pic-info span{
@@ -583,7 +585,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-right:0;
 }
 .social-grid h4{
-	color: #FF008C;
+	color: #33cc33;
     font-size: 2em;
     font-family: 'Dosis-Regular';
 }
@@ -640,7 +642,7 @@ background-position:-167px -36px;
 	margin:3em 0 3em;
 }
 .news-ltr h4 {
-    color: #FF008C;
+    color: #33cc33;
     font-size: 2em;
     font-family: 'Dosis-Regular';
     margin: 0em 0em 0.5em 0em;
@@ -677,9 +679,9 @@ background-position:-167px -36px;
   font-size:0.9em;
 }
 .news-ltr form input[type="submit"]:hover{
-	  border: 2px solid #333;  
+	  border: 2px solid #333;
   background: transparent;
-  color:#333;  
+  color:#333;
 }
 .news-ltr form{
 	margin-top:2em;
@@ -702,7 +704,7 @@ background-position:-167px -36px;
 	padding:3em 0;
 }
 .about h2,h2.top,.gallery h2,h3.hdng{
-	color: #FF008C;
+	color: #33cc33;
     font-size: 3em;
     font-family: 'Dosis-Medium';
     text-align: center;
@@ -716,7 +718,7 @@ background-position:-167px -36px;
     font-family: 'Dosis-Regular';
 }
 .about-info h5 {
-    color: #FF008C;
+    color: #33cc33;
     margin: 0.5em 0;
     font-size: 1.1em;
     line-height: 1.5em;
@@ -733,7 +735,7 @@ background-position:-167px -36px;
 	margin-top:4em;
 }
 .testimonals h3{
-	color: #FF008C;
+	color: #33cc33;
     font-size:2.5em;
     font-family: 'Dosis-Regular';
 	text-align:center;
@@ -767,7 +769,7 @@ background-position:-167px -36px;
 	display:block;
 }
 .testi-info a{
-	color:#FF008C;
+	color:#33cc33;
 	text-decoration:none;
 	font-size: 0.8em;
 	font-weight:500;
@@ -779,7 +781,7 @@ background-position:-167px -36px;
 margin-top:3em;
 }
 .team h3{
-	color: #FF008C;
+	color: #33cc33;
     font-size: 2.5em;
     font-family: 'Dosis-Regular';
 	text-align:center;
@@ -862,7 +864,7 @@ h3.ghj {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1018,7 +1020,7 @@ h2.typoh2{
 }
 .contact-left p {
     font-size: 1em;
-    color: #868686;
+    color: #fff;
     line-height: 1.8em;
 }
 .contact-left ul {
@@ -1029,13 +1031,13 @@ h2.typoh2{
     display: block;
     margin-top: 1em;
     font-size: 1em;
-    color: #868686;
+    color: #fff;
 }
 .contact-left ul li a{
-	color: #868686;
+	color: #fff;
 }
 .contact-left ul li a:hover{
-	color:#EF3DBE;
+	color:#fff;
 }
 .contact-left ul li span {
     width: 15px;
@@ -1072,7 +1074,7 @@ h2.typoh2{
     -webkit-appearance: none;
 }
 .contact-right input[type="submit"] {
-    border: 1px solid #FF008C;
+    border: 1px solid #33cc33;
     padding: .5em 0;
     width: 22%;
     margin-top: 0.8em;
@@ -1080,7 +1082,7 @@ h2.typoh2{
     color: #FFFFFF;
     letter-spacing: 1px;
     outline: none;
-    background-color: #FF008C;
+    background-color: #33cc33;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -1089,12 +1091,12 @@ h2.typoh2{
     -webkit-appearance: none;
 }
 input[type="text"]:hover, .contact-right textarea:hover  {
-    border-color: rgba(255, 0, 140, 0.29);
+    border-color: #33cc33;
 }
 .contact-right input[type="submit"]:hover {
     background-color: #fff;
-    color: #FF008C;
-    border: 1px dotted #FF008C;
+    color: #33cc33;
+    border: 1px dotted #33cc33;
 }
 .glyphicon3 {
     position: relative;
@@ -1293,7 +1295,7 @@ span.menu{
 	display: block;
   text-align: right;
   padding-bottom: 0.5em;
-  cursor: pointer;	
+  cursor: pointer;
   position:relative;
 }
 .top-menu span.menu{
@@ -1328,7 +1330,7 @@ span.menu{
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	left: 0%;	
+	left: 0%;
 	background:#333;
 	    padding: 10px 0;
 }
