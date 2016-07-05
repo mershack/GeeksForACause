@@ -229,7 +229,7 @@ span.menu{
 }
 /*--banner--*/
 .banner{
-	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+	background:url(http://www.onlineuniversities.com/wp-content/uploads/digital-divide-mod.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:650px;
 	padding-top:17em;
@@ -253,7 +253,7 @@ span.menu{
   margin: 0;
   }
 .rslides h2{
-color:#fff;
+color:blue;
 font-size: 5em;
     width: 92%;
     margin: 0 auto;
@@ -261,7 +261,7 @@ font-size: 5em;
 	text-transform:uppercase;
 }
 .rslides h3{
-color:#fff;
+color:blue;
 font-size: 1.5em;
 margin-top:1em;
 text-transform:uppercase;
@@ -388,7 +388,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -o-transform: scale(1);
   transform: scale(1);
 }
-.glyphicon-heart,.glyphicon-asterisk,.glyphicon-flag{
+.glyphicon-phone, .glyphicon-globe, .glyphicon-education, .glyphicon-pencil {
 	color:#C7C7C7;
   font-size:35px;
 }

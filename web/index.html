@@ -11,6 +11,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+		apiKey: "AIzaSyAoJk9g4s-Kvy6AUCCcOe2XlAp5ijEtlrQ",
+    authDomain: "project-6720739628340938966.firebaseapp.com",
+    databaseURL: "https://project-6720739628340938966.firebaseio.com",
+    storageBucket: "project-6720739628340938966.appspot.com"
+  };
+  firebase.initializeApp(config);
+	firebase.database().ref("child-test").set({"test":4});
+</script>
+
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
@@ -26,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="container">
 		 <div class="header-top">
 			 <div class="logo">
-				 <a href="index.html"><h1>Geeks for a Cause <span>Organization</span></h1></a>
+				 <a href="index.html"><h1>Geeks with a Cause <span>Organization</span></h1></a>
 			 </div>
 			 <div class="hdr-address">
 				 <div class="address1">
@@ -63,10 +77,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 <span class="menu">MENU</span>
 			 <ul>
 			 <li><a href="schools.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Schools for a Cause</a></li>
-			 <li><a href="students.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Students for a Cause</a></li>
-			 <li><a href="orgs.html"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span>Businesses/Organizations for a Cause</a></li>
-			 <li><a href="gallery.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Gallery</a></li>
+			 <li><a href="students.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Students for a Cause</a></li>
 			 <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact</a></li>
+       <li><a href="similarorgs.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Similar organizations</a></li>
 			 </ul>
 		 </div>
 		 <!-- script-for-menu -->
@@ -99,15 +112,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <div class="callbacks_container">
 				     <ul class="rslides" id="slider">
 						 <li>
-							  <h2>Give a Helping Hand</h2>
+							  <h2>HS Geeks + Communities</h2>
 							 <h3>Maecenas dignissim nibh.</h3>
 						 </li>
 						 <li>
-							 <h2>Help a Child Without Family</h2>
+							 <h2>Help guide students</h2>
 							 <h3>Fusce vel lacus dapibus.</h3>
 						 </li>
 						 <li>
-							 <h2>Don't Leave Orphans Alone</h2>
+							 <h2>tech changing lives</h2>
 							 <h3>Aenean maximus in sem.</h3>
 						 </li>
 					  </ul>
@@ -121,8 +134,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="welcome">
 	 <div class="container">
 		 <div class="welcome-top">
-			 <h3>Welcome To Our Charity</h3>
-			 <h4>Our Charity Has Over 100 Donors</h4>
+			 <h3>This is Geeks for a cause</h3>
+			 <h4>A place where geeks can learn how to make the world a better place</h4>
 			 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
 				corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 		 </div>
@@ -130,28 +143,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 				   <div class="chrty">
 						<figure class="icon">
-							 <span class="glyphicon-icon glyphicon-heart" aria-hidden="true"></span>
+							 <span class="glyphicon-icon glyphicon-pencil" aria-hidden="true"></span>
 						</figure>
-						<h3>Child Protection</h3>
-						<p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+						<h3>Education</h3>
+						<p>Part of this initaitive is to help educate high school students who are intrested in tech about it.</p>
 				  </div>
 			  </div>
 			  <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 				   <div class="chrty">
 						<figure class="icon">
-							<span class="glyphicon-icon glyphicon-asterisk" aria-hidden="true"></span>
+							<span class="glyphicon-icon glyphicon-globe" aria-hidden="true"></span>
 						</figure>
-						<h3>Adoption Child </h3>
-						<p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+						<h3>Geeks and their communities</h3>
+						<p>Helping geeks find ways to help their local communities with their tech knowledge</p>
 				  </div>
 			  </div>
 			  <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 				   <div class="chrty">
-						 <figure class="icon">
-							<span class="glyphicon-icon glyphicon-flag" aria-hidden="true"></span>
+						<figure class="icon">
+							<span class="glyphicon-icon glyphicon-phone" aria-hidden="true"></span>
 						</figure>
-						<h3>Charity actions</h3>
-						<p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+						<h3>Tech</h3>
+						<p>Tech is all around us and it has immense power to help. So everything done with Geeks with a Cause will always be done with tech.</p>
 				  </div>
 			  </div>
 			  <div class="clearfix"></div>
@@ -165,31 +178,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 <div class="mission-sec">
 			 <div class="blog-grids">
 				 <div class="col-md-6 blog1 text_grid">
-					 <h4><a href="about.html">Nulla posuere ipsum at commodo viverra.</a></h4>
-					 <p>Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
+					 <h4><a href="about.html">The Geek community</a></h4>
+					 <p>We want to unite geeks to build a community where they help each others and also reach out to help the world.</p>
 				 </div>
 				 <div class="col-md-6 blog-pic">
-					  <img src="images/m2.jpg" class="img-responsive" alt="">
+					  <img src="https://campustechnology.com/~/media/EDU/CampusTechnology/Images/2015/03/20150324internet2.jpg" class="img-responsive" alt="">
 				 </div>
 				 <div class="clearfix"></div>
 			 </div>
 			 <div class="blog-grids">
 				 <div class="col-md-6 blog-pic">
-					  <img src="images/m1.jpg" class="img-responsive" alt="">
+					  <img src="http://blog.abt.com/wp-content/uploads/2015/09/recycle-ewaste-squareish.jpg" class="img-responsive" alt="">
 				 </div>
 				 <div class="col-md-6 blog1">
-					 <h4><a href="about.html">Curabitur viverra elit a mollis ultricies.</a></h4>
-					 <p>Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
+					 <h4><a href="about.html">Helping the less tech-fortunate</a></h4>
+					 <p>Some may find it difficult to embrace their inner geek because they may lack the right tech and may not be able to obtain. One of our goals is to remove this difficulty by being a platform where people can donate their tech to geeks so they can use it to make great things.</p>
 				 </div>
 				 <div class="clearfix"></div>
 			 </div>
 			 <div class="blog-grids">
 				 <div class="col-md-6 blog1 text_grid">
-					 <h4><a href="about.html">Duis viverra orci et dapibus gravida.</a></h4>
-					 <p>Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
+					 <h4><a href="about.html">Let geeks be geeks</a></h4>
+					 <p>We want geeks to be proud to be geeks. </p>
 				 </div>
 				 <div class="col-md-6 blog-pic">
-					  <img src="images/m3.jpg" class="img-responsive" alt="">
+					  <img src="https://pbs.twimg.com/media/Cc1CEVmXEAA866y.jpg" class="img-responsive" alt="">
 				 </div>
 				 <div class="clearfix"></div>
 			 </div>
@@ -200,8 +213,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="join">
 	 <div class="container">
 		 <div class="col-md-9 join-info">
-		      <h3>We Do A Let To Make All The Children Of The World Happy</h3>
-			  <p>Donec tempus justo quis lobortis pulvinar. Proin non ex ac ante rutrum elementum quis quis urna. Nulla facilisi.</p>
+		      <h3>Lets make the world a better place</h3>
+			  <p><!-- more describtion--></p>
 		 </div>
 		 <div class="col-md-3 join-link">
 				<a href="#">Join Us</a>
@@ -210,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 </div>
 </div>
 <!---->
-<div class="bottom-grids">
+<!-- <div class="bottom-grids">
 	 <div class="container">
 		 <div class="col-md-5 bottom-left-grid">
 			 <h3>Featured Project</h3>
@@ -282,7 +295,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 		 <div class="clearfix"></div>
 	 </div>
-</div>
+</div> -->
 <!---->
 <div class="copywrite">
 	 <div class="container">
