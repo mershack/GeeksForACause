@@ -223,8 +223,14 @@ ul{
     text-decoration:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-    color:#33cc33;
+    color:#336600;
+}   
+
+.current{
+    background-color: rgba(153, 204, 0,.2);
+    /*font-size: 16px;*/
 }
+
 span.menu{
     display: none;
 }
@@ -455,6 +461,32 @@ ul.callbacks_tabs.callbacks1_tabs {
     font-size:1em;
     line-height:1.8em;
 }
+
+.coord-image{
+    position: relative;
+    margin: 0 200px;
+    padding: 0;
+}
+.coord-image2{
+    margin: 0 10%
+}
+
+td, th{
+    padding: 15px;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+th{
+    font-size: 15px;
+}
+td{
+    border: 1px solid black;
+}
+
+table{
+    margin: 100px 30%;
+}
+
 .text_grid{
     text-align:center;
      margin-top: 30px;
@@ -728,10 +760,10 @@ a i.youtube{
     color:#fff;
 }
 /*--about--*/
-.about{
+.about, .geek-day, .tutoring-services{
     padding:3em 0;
 }
-.about h2,h2.top,.gallery h2,h3.hdng{
+.about h2,h2.top,.gallery h2,h3.hdng, .geek-day h2, .tutoring-services h2{
     color: #33cc33;
     font-size: 3em;
     font-family: 'Dosis-Medium';
@@ -745,15 +777,10 @@ a i.youtube{
     font-size: 2.3em;
     font-family: 'Dosis-Regular';
 }
-.about-info h5 {
-    color: #33cc33;
-    margin: 0.5em 0;
-    font-size: 1.1em;
-    line-height: 1.5em;
-}
+
 .about-info p{
     font-size:1em;
-    color:#fff;
+    color:#666;
     line-height:1.8em;
 }
 .abt-chrits{
@@ -826,9 +853,11 @@ a i.youtube{
 }
 
 .blog-grids img{
-    -webkit-border-image: url(../images/imageborder.jpg) 30 round; /* Safari 3.1-5 */
-    -o-border-image: url(../images/imageborder.jpg) 30 round; /* Opera 11-12.1 */
-    border-image: url(../images/imageborder.png) 30 round; 
+     border: 5px solid transparent;
+    
+    -webkit-border-image: url(../images/border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(../images/border.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(../images/border.png) 30 round;
 }
 .team-grid img {
     width: 100%;
@@ -840,7 +869,17 @@ a i.youtube{
 }
 .team-sec{
     margin-top:3em;
+    margin-left: 250px;
 }
+.text_grid ul li{
+    text-align: center;
+    margin-left: 20px;
+        padding: 0;
+    margin: 0;
+}
+
+
+
 /*--shortcodes--*/
 .pages {
     padding:3em 0px;
@@ -1219,6 +1258,7 @@ input[type="text"]:hover, .contact-right textarea:hover  {
         font-size: 0.96em;
         margin: 1em 0 0.5em 0;
     }*/
+   
     .blog1 {
        
         width: 50%;
@@ -1229,7 +1269,7 @@ input[type="text"]:hover, .contact-right textarea:hover  {
         float: left;
     }
     .blog-grids {
-        margin-bottom: 2em;
+        margin: 25px 0;
     }
     .join h3 {
         font-size: 2em;
@@ -1266,12 +1306,10 @@ input[type="text"]:hover, .contact-right textarea:hover  {
         float: left;
         width: 40%;
     }
-    .about h2, h2.top, .gallery h2, h3.hdng {
+    .about h2, h2.top, .gallery h2, h3.hdng, .geek-day h2, .tutoring-services h2{
         font-size: 2.5em;
     }
-    .about {
-        padding: 2em 0;
-    }
+  
     .about-info h3 {
         font-size: 1.7em;
     }
@@ -1455,7 +1493,7 @@ input[type="text"]:hover, .contact-right textarea:hover  {
     .gallery {
         padding: 2em 0 2em;
     }
-    .about h2, h2.top, .gallery h2, h3.hdng {
+    .about h2, h2.top, .gallery h2, h3.hdng , .geek-day h2, .tutoring-services h2{
         font-size: 2.3em;
     }
     .map {
@@ -1502,9 +1540,7 @@ input[type="text"]:hover, .contact-right textarea:hover  {
         font-size: 0.85em;
     }
   
-    .blog-grids {
-        margin-bottom: 1em;
-    }
+   
     .join {
         padding: 2em 0;
     }
