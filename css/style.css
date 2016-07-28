@@ -65,7 +65,8 @@ ul{
     background-color: green;
 }
 .header{
-    /*background:#333;*/
+    background:#333;
+      /*background-image:url(../images/slim-banner.png);*/
     padding:2em 0 1em;
 }
 .header-top{
@@ -205,7 +206,7 @@ ul{
 .top-menu{
     float: right;
     text-align:right;
-    background-color: rgba(242, 242, 242,.4);
+    background-color: rgba(255, 255, 255,.4);
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
@@ -223,11 +224,11 @@ ul{
     text-decoration:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-    color:#336600;
+    color:#33cc33;
 }   
 
 .current{
-    background-color: rgba(153, 204, 0,.2);
+    background-color: rgba(0, 204, 0,.4);
     /*font-size: 16px;*/
 }
 
@@ -241,20 +242,23 @@ span.menu{
 /*--banner--*/
 .banner{
     /*background:url(../images/digital-divide-mod.jpg) no-repeat 0px 0px;*/
-    background-image:url(../images/geeks2.png);
+    background-image:url(../images/digital-divide-mod.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: whitesmoke;
     /*background-size:cover;*/
+    padding: 0;
+    margin: 0;
+  
     /*min-height:550px;*/
     /*padding-top:17em; */
     text-align:center;
-    height: 500px;
+    height: 600px;
 }
 .slimBanner{
     margin: 0;
     padding: 0;
-   background-image:url(../images/slim-banner.png);
+    background-image:url(../images/slim-banner.png);
     background-repeat: repeat-x;
     background-position: center;
     background-color: whitesmoke;
@@ -464,7 +468,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 .coord-image{
     position: relative;
-    margin: 0 200px;
+    margin: 0 10px;
     padding: 0;
 }
 .coord-image2{
@@ -869,7 +873,7 @@ a i.youtube{
 }
 .team-sec{
     margin-top:3em;
-    margin-left: 250px;
+    margin-left: 10px;
 }
 .text_grid ul li{
     text-align: center;
