@@ -477,14 +477,17 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 td, th{
     padding: 15px;
-    background-color: lightgray;
+   
     border: 1px solid gray;
+    width: 100%;
 }
 th{
     font-size: 15px;
+     background-color: #33cc33;
 }
 td{
     border: 1px solid black;
+     background-color: lightgray;
 }
 
 table{
